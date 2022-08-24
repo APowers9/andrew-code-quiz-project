@@ -11,19 +11,24 @@
     <section id = "Start">
         <h1>Javascript Quiz</h1>
         <p>Take a short, timed quiz to test your knowledge on Javascript. <br> Press start to begin quiz.</button></p>
-        <button>Start!</button>
+        <button id = "startbutton">Start!</button>
     </section>
-    <section id = "Quiz">
-        <h1>Quiz Questions:</h1>
-        <article>
-            <!-- Questions will go here -->
-        </article>
+
+    <section id = "Quiz"><br>
+        <article id = "question-container">Quiz Questions:</article><br>
+        <div id = "questions">Question</div>
+        <button id = "answers">Answer 1</button>
+        <button id = "answers">Answer 2</button>
+        <button id = "answers">Answer 3</button>
+        <button id = "answers">Answer 4</button><br>
+        <button id = "nextbutton">Next Question</button>
     </section>
+    
     <section id = "End">
         <h1>Scoreboard</h1>
         <p>Type your initials here</p>
         <input type = "text"/>
-        <button>Submit</button>
+        <button id = "submitbutton">Submit</button>
     </section>
     <script src="./assets/script.js"></script>
 </body>
